@@ -1,0 +1,145 @@
+@media all and (min-width: 1024px) {
+  .input-forms {
+    padding: 70px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+
+    input {
+      width: 350px;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .input-forms {
+    padding: 60px;
+
+    input {
+      width: 330px;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .input-forms {
+    padding: 50px;
+
+    input {
+      width: 300px;
+    }
+  }
+}
+
+.signup-wrapper {
+  padding-top: 5rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+  .input-forms {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .input-label {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #282c34;
+    }
+
+    .input-forms-item {
+      padding: 7px 0;
+
+      .error-message {
+        font-size: 0.7rem;
+        color: red;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .register-btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+    background-color: #FFFBD8;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .other-page {
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    .link-frame {
+      text-align: center;
+       width: 33%;
+      .to-page {
+        text-align: center;
+        border: none;
+        color: black;
+        background-color: white;
+        font-size: 0.8rem;
+      }
+
+    }
+    .link-frame2 {
+      text-align: center;
+       width: 33%;
+       border-style: none solid;
+       border-color: gray;
+       
+       .to-page2 {
+         text-align: center;
+         border: 2px;
+         color: black;
+         background-color: white;
+         font-size: 1rem;
+       }
+      }
+
+  }
+
+  .contact {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+
+  .contact::before,
+  .contact::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+  }
+
+  .e-contact {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+
+  .logo {
+    margin: auto;
+    padding-top: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+}

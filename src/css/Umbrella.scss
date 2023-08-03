@@ -1,0 +1,52 @@
+.Um-wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    .Um-title {
+        text-align: center;
+        margin: 15px 0 15px 0;
+        font-size: 1.5rem;
+        line-height: 45px;
+        height: 3rem;
+        max-width: 102.3rem;
+        min-width: 1024px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border: 1px white solid;
+        font-weight: bold;
+    }
+
+    .Um-contents {
+        min-width: 1024px;
+        width: 100%;
+        height: 51rem;
+        margin: 16px 0;
+        display: flex;
+        .Um-contents1{
+            width: 48%;
+            margin-right: 2%;
+            border-radius: 6px ;
+            .Um-Nowuse{
+                border-radius: 6px ;
+                height: 49%;
+                background-color: white;
+                margin-bottom: 16px;
+                
+            }
+            .Um-Notuse{
+                border-radius: 6px ;
+                height: 49%;
+                background-color: white;
+            }
+        }
+        .Um-contents2{            
+            border-radius: 6px ;
+            width: 48%;
+            background-color: white;
+        }
+    }
+}
